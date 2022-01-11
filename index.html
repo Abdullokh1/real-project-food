@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/column.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Food Order</title>
+</head>
+<body>
+  <div class="main-wrapper row between">
+
+    <div id="menu-part">
+      <a href="#"><img class="main-logo" src="images/main-logo.svg" alt="main-logo" width="56" height="56"></a>
+      <nav>
+        <ul class="nav-lists">
+          <li class=""><a href="#"><img class="home-img" src="images/home-img.svg" alt="home-img" width="92" height="80"></a></li>
+          <li class="nav-item"><a href="#"><img src="images/menu.svg" alt="menu" width="56" height="56"></a></li>
+          <li class="nav-item"><a href="dashboard.html"><img src="images/contacts.svg" alt="contacts" width="56" height="56"></a></li>
+          <li class="nav-item"><a href="#"><img src="images/messege.svg" alt="messege" width="56" height="56"></a></li>
+          <li class="nav-item"><a href="#"><img src="images/bell.svg" alt="bell" width="56" height="56"></a></li>
+          <li class="nav-item"><a href="settings.html"><img src="images/settings.svg" alt="settings" width="56" height="56"></a></li>
+          <li class="nav-item"><a href="#"><img src="images/enter-icon.svg" alt="enter-icon" width="56" height="56"></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="food-part">
+      <div class="inner-fixed">
+        <div class="row between middle food-intro">
+          <div class="main-title">
+            <h1 class="food-title">Jaegar Resto</h1>
+            <p class="food-date">Tuesday, 2 Feb 2021</p>
+          </div>
+          <div>
+            <i class='bx bx-search'></i>
+            <input class="search-input" type="text" name="search" placeholder="Search for food, coffe, etc..">
+          </div>
+        </div>
+        <nav>
+          <ul class="row food-lists middle">
+            <li class="food-items"><a class="active-link" href="#">Hot Dishes</a></li>
+            <li class="food-items"><a class="food-links" href="#">Cold Dishes</a></li>
+            <li class="food-items"><a class="food-links" href="#">Soup</a></li>
+            <li class="food-items"><a class="food-links" href="#">Grill</a></li>
+            <li class="food-items"><a class="food-links" href="#">Appetizer</a></li>
+            <li class="food-items"><a class="food-links" href="#">Dessert</a></li>
+          </ul>
+        </nav>
+  
+          <div class="row  middle between dishes-intro">
+            <h3 class="dishes-title">Choose Dishes</h3>
+            <button class="food-btn"><img class="food-down-img" src="images/down-icon.svg" alt="down" width="14" height="8">Dine In</button>
+          </div>
+      </div>
+
+        <ul class="food-description center row wrap">
+          <li class="food-prices">
+            <div class="text-center food-content-wrapper">
+              <img class="food-images" src="images/spicy-food.png" alt="spicy-food" width="132" height="132">
+              <p class="type-of-food">Spicy seasoned <br> seafood noodles</p>
+              <p class="price">$ 2.29</p>
+              <p class="amount-of-food">20 Bowls available</p>
+            </div>
+          </li>
+          <li class="food-prices">
+            <div class="text-center food-content-wrapper">
+              <img class="food-images" src="images/spagetti.png" alt="spagetti" width="132" height="132">
+              <p class="type-of-food">Salted Pasta with <br> mushroom sauce</p>
+              <p class="price">$ 2.69</p>
+              <p class="amount-of-food">11 Bowls available</p>
+            </div>
+          </li>
+          <li class="food-prices">
+            <div class="text-center food-content-wrapper">
+              <img class="food-images" src="images/soup.png" alt="soup" width="132" height="132">
+              <p class="type-of-food">Beef dumpling in hot <br> and sour soup</p>
+              <p class="price">$ 2.99</p>
+              <p class="amount-of-food">16 Bowls available</p>
+            </div>
+          </li>
+          <li class="food-prices">
+            <div class="text-center food-content-wrapper">
+              <img class="food-images" src="images/spinach.png" alt="spinach" width="132" height="132">
+              <p class="type-of-food">Healthy noodle with <br> spinach leaf</p>
+              <p class="price">$ 3.29</p>
+              <p class="amount-of-food">22 Bowls available</p>
+            </div>
+          </li>
+          <li class="food-prices">
+            <div class="text-center food-content-wrapper">
+              <img class="food-images" src="images/spinach.png" alt="spinach" width="132" height="132">
+              <p class="type-of-food">Hot spicy fried rice <br> with omelet</p>
+              <p class="price">$ 3.49</p>
+              <p class="amount-of-food">13 Bowls available</p>
+            </div>
+          </li>
+          <li class="food-prices">
+            <div class="text-center food-content-wrapper">
+              <img class="food-images" src="images/omelette.png" alt="omelet" width="132" height="132">
+              <p class="type-of-food">Spicy instant noodle <br> with special omelette</p>
+              <p class="price">$ 3.59</p>
+              <p class="amount-of-food">17 Bowls available</p>
+            </div>
+          </li>
+        </ul>
+    </div>
+     
+    <div id="order-part">
+      <h4 class="order-number">Orders #34562</h4>
+      <ul class="row order-lists">
+        <li class="order-items"><button class="order-dine-in-btn">Dine In</button></li>
+        <li class="order-items"><button class="order-dine-in-btn to-go-btn">To Go</button></li>
+        <li class="order-items"><button class="order-dine-in-btn to-go-btn delivery-btn">Delivery</button></li>
+      </ul>
+      <div class="row middle between orders-intro">
+        <p class="item-order">Item</p>
+        <p class="item-order qty-order">Qty</p>
+        <p class="item-order">Price</p>
+      </div>
+        <span class="line-break"></span>
+
+        <div class="row middle main-order-wrapper">
+          <div class="row order-wrapper-inner">
+            <img class="order-img" src="images/food-order.png" alt="food-order" width="40" height="40">
+            <div>
+              <p class="order-sub-title">Spicy seasoned sea...</p>
+              <p class="order-price">$ 2.29</p>
+            </div>
+          </div>
+          <span class="qty-item">2</span>
+          <p class="order-main-price">$ 4,58</p>
+        </div>
+        <div class="row middle comment-order-inner">
+          <input class="comment-input" type="text" name="comment" placeholder="Please, just a little bit spicy only.">
+          <div>
+            <button class="delete-btn"><img class="delete-img" src="images/delete.svg" alt="delete" width="15" height="17"></button>
+          </div>
+        </div>
+
+        <div class="row middle main-order-wrapper second-order-wrapper">
+          <div class="row order-wrapper-inner">
+            <img class="order-img" src="images/salted-spagetti.png" alt="salted-spagetti" width="40" height="40">
+            <div>
+              <p class="order-sub-title">Salted pasta with mu...</p>
+              <p class="order-price">$ 2.69</p>
+            </div>
+          </div>
+          <span class="qty-item">1</span>
+          <p class="order-main-price">$ 2,69</p>
+        </div>
+        <div class="row middle comment-order-inner">
+          <input class="comment-input" type="text" name="comment" placeholder="Order Note...">
+          <div>
+            <button class="delete-btn"><img class="delete-img" src="images/delete.svg" alt="delete" width="15" height="17"></button>
+          </div>
+        </div>
+
+        <div class="row middle main-order-wrapper second-order-wrapper">
+          <div class="row order-wrapper-inner">
+            <img class="order-img" src="images/food-order.png" alt="food-order" width="40" height="40">
+            <div>
+              <p class="order-sub-title">Spicy instant noodle...</p>
+              <p class="order-price">$ 3.49</p>
+            </div>
+          </div>
+          <span class="qty-item">3</span>
+          <p class="order-main-price">$ 10,49</p>
+        </div>
+        <div class="row middle comment-order-inner">
+          <input class="comment-input" type="text" name="comment" placeholder="Orer Note...">
+          <div>
+            <button class="delete-btn"><img class="delete-img" src="images/delete.svg" alt="delete" width="15" height="17"></button>
+          </div>
+        </div>
+
+        <div class="payment">
+        <span class="line-break payment-line"></span>
+        <div class="row middle between discount-part">
+          <h4 class="discount-title">Discount</h4>
+          <p class="discount-price">$0</p>
+        </div>
+        <div class="row middle between discount-part second-disc-part">
+          <h4 class="discount-title">Sub total</h4>
+          <p class="discount-price">$ 21,03</p>
+        </div>
+
+        <button class="payment-btn">Continue to Payment</button>
+
+        </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
